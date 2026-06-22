@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.header, .intro, .footer {
+    display: flex;
+    background-color: #484349;
+    color: #F7F0F0;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 256px;
+}
+
+.intro {
+    align-items: center;
+    gap: 32px;
+    padding: 64px 256px;
+    box-shadow: 0 10px 10px -10px black inset;
+}
+
+.i-left button {
+    background-color: #109648;
+    border: none;
+    color: #F7F0F0;
+    font-size: 16px;
+    padding: 8px 24px;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+.i-left, .i-right {
+    flex: 1;
+}
+
+.i-right img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F7F0F0;
+}
+
+ul, .hero-secondary {
+    font-size: 18px;
+    color: #F7F0F0;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+    padding: 64px 256px;
+    background-color: #F7F0F0;
+}
+
+.cards-title {
+    font-size: 36px;
+    color: #484349;
+    font-weight: 900;
+}
+
+.cards-body {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    text-align: center;
+    gap: 8px;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #109648;
+    border-radius: 8px;
+}
+
+.card div {
+    color: #484349;
+}
+
+.quote {
+    background-color: #dbd2d2;
+    padding: 64px 256px;
+}
+
+.q-text {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.q-author {
+    text-align: right;
+}
+
+.sign {
+    padding: 64px 172px;
+}
+
+.modal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #109648;
+    padding: 64px;
+    border-radius: 8px;
+}
+
+.m-right button {
+    background-color: #109648;
+    border: none;
+    color: #F7F0F0;
+    font-size: 16px;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: 2px solid #F7F0F0;
+}
+
+.call-to-action {
+    color: #F7F0F0;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.call-to-action-sub {
+    color: #F7F0F0;
+}
+
+.footer {
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+}
